@@ -61,15 +61,18 @@ public class ForLoopPractice
 		public static void sumNumbersInUsersRange()
 			{
 				
-			 System.out.println("Please puut in the lower bound.");
+			 System.out.println("Please put in the lower bound.");
 			 int lowerBound = userInput.nextInt();
 			 System.out.println("Please put in the upper bound.");
 			 int upperBound = userInput.nextInt();
 			 
 			 for(int i = lowerBound; i <= upperBound; i++)
 			 {
-				 int sum = i++;
+				 lowerBound ++;
+				 System.out.println(lowerBound);
 			 }
+			 
+			 //System.out.println("The sum of all of these Numbers is " + lowerBound);
 			
 			}
 
