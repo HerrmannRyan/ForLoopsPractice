@@ -11,7 +11,7 @@ public class ForLoopPractice
 				//ascendAndDescend();
 				//printMultiplesOfFive();
 				//totalNumbers();
-				sumNumbersInUsersRange();
+				//sumNumbersInUsersRange();
 
 			}
 
@@ -22,6 +22,7 @@ public class ForLoopPractice
 					System.out.println("I love Donuts!!");	
 				}
 				
+				System.out.println("\n");
 			}
 
 		public static void ascendAndDescend()
@@ -31,10 +32,12 @@ public class ForLoopPractice
 					System.out.println(i);
 
 				}
-				for(int i = 5; i >= 0; i--)
+				for(int i = 5; i >= 1; i--)
 				{
 					System.out.println(i);	
 				}
+				
+				System.out.println("\n");
 				
 			}
 
@@ -68,11 +71,10 @@ public class ForLoopPractice
 			 
 			 for(int i = lowerBound; i <= upperBound; i++)
 			 {
-				 lowerBound ++;
-				 System.out.println(lowerBound);
+				 lowerBound += i;
 			 }
 			 
-			 //System.out.println("The sum of all of these Numbers is " + lowerBound);
+			 System.out.println("The sum of all of these Numbers is " + lowerBound);
 			
 			}
 
