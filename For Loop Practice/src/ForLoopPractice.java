@@ -11,7 +11,9 @@ public class ForLoopPractice
 				//ascendAndDescend();
 				//printMultiplesOfFive();
 				//totalNumbers();
-				sumNumbersInUsersRange();
+				//sumNumbersInUsersRange();
+				//drawRectangleWithAstericks();
+				//printTenThroughFiftyNoEvenNumbers();
 
 			}
 
@@ -76,6 +78,30 @@ public class ForLoopPractice
 			 }
 			 
 			 System.out.println("The sum of all of these Numbers is " + (lowerBound - lowerBoundBuffer));
+			
+			}
+		
+		public static void drawRectangleWithAstericks()
+			{
+			
+			System.out.println("*********");
+			
+			for (int i = 1; i <= 7; i++)
+			{
+				System.out.println("*       *");
+			}
+			
+			System.out.println("*********");
+			
+			}
+		
+		public static void printTenThroughFiftyNoEvenNumbers()
+			{
+			
+			for (int i = 5; i < 51; i += 11)
+			{
+				System.out.println(i + 5);
+			}
 			
 			}
 
