@@ -11,7 +11,7 @@ public class ForLoopPractice
 				//ascendAndDescend();
 				//printMultiplesOfFive();
 				//totalNumbers();
-				//sumNumbersInUsersRange();
+				sumNumbersInUsersRange();
 
 			}
 
@@ -68,13 +68,14 @@ public class ForLoopPractice
 			 int lowerBound = userInput.nextInt();
 			 System.out.println("Please put in the upper bound.");
 			 int upperBound = userInput.nextInt();
+			 int lowerBoundBuffer = lowerBound;
 			 
 			 for(int i = lowerBound; i <= upperBound; i++)
 			 {
 				 lowerBound += i;
 			 }
 			 
-			 System.out.println("The sum of all of these Numbers is " + lowerBound);
+			 System.out.println("The sum of all of these Numbers is " + (lowerBound - lowerBoundBuffer));
 			
 			}
 
