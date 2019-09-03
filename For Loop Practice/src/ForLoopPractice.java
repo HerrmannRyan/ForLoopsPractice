@@ -7,12 +7,12 @@ public class ForLoopPractice
 		
 		public static void main(String[] args)
 			{
-				//printDonuts();
-				//ascendAndDescend();
-				//printMultiplesOfFive();
-				//totalNumbers();
-				//sumNumbersInUsersRange();
-				//drawRectangleWithAstericks();
+				printDonuts();
+				ascendAndDescend();
+				printMultiplesOfFive();
+				totalNumbers();
+				sumNumbersInUsersRange();
+				drawRectangleWithAstericks();
 				//printTenThroughFiftyNoEvenNumbers();
 
 			}
